@@ -97,7 +97,8 @@
             color: #333;
         }
         .form-group input,
-        .form-group select {
+        .form-group select,
+        .form-group textarea {
             width: 100%;
             padding: 10px;
             border: 1px solid #ddd;
@@ -106,7 +107,8 @@
             box-sizing: border-box;
         }
         .form-group input:focus,
-        .form-group select:focus {
+        .form-group select:focus,
+        .form-group textarea:focus {
             border-color: #7950F2;
             outline: none;
         }
@@ -204,6 +206,11 @@
                         <option value="Магистратура">607-52</option>
                     </select>
                 </div>
+                <!-- Новый раздел: Комментарий -->
+                <div class="form-group">
+                    <label for="comment">Комментарий</label>
+                    <textarea id="comment" name="comment" rows="4" placeholder="Введите дополнительный комментарий к уроку..."></textarea>
+                </div>
                 <div class="form-buttons">
                     <button type="submit" class="btn btn-save">Сохранить</button>
                     <button type="button" class="btn btn-cancel">Отмена</button>
@@ -212,5 +219,4 @@
         </section>
     </main>
 </body>
-
-</html>
+</html
